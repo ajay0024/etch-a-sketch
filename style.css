@@ -11,6 +11,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(#ddd6f3, #faaca8);
 }
 
 #block-container{
@@ -22,22 +23,17 @@ body{
     gap: 1px;
 }
 #block-container > div{
-    background: red;
+    background: white;
 }
 button{
     height: calc(var(--btn-height) - 8px);
     font-size: calc(0.5 * var(--btn-height));
     background: none;
     border: 1px solid rgb(57, 54, 54);
-    /* background-color: hsl(115, 100%, 79%); */
     cursor: pointer;
     margin: 2px;
     padding: 2px;
 }
 .red{
     background: red;
-}
-.green{
-    background: green !important;
-    
 }
